@@ -7,7 +7,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 
 from config import configure
 from data_module import SrlDataModule
-from net.BiaffineSrl import SpanSrlNet
+from net.bi_affine_srl import SpanSrlNet
 
 def main():
     torch.manual_seed(0)
